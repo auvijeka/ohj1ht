@@ -21,6 +21,14 @@ public class Siili : PhysicsGame
 {
     public override void Begin()
     {
+       // TileMap ruudut = TileMap.FromLevelAsset("pelikentta");
+
+        //ruudut.SetTileMethod("S", LuoSiili);
+        //ruudut.SetTileMethod("M", LuoMarja);
+        //ruudut.SetTileMethod("#", LuoPuu);
+        //ruudut.SetTileMethod("/", LuoSeina);
+
+
         //Siili peliin 
         Level.Background.CreateGradient(Color.Green, Color.Blue);
         PhysicsObject siili = new PhysicsObject(100, 50);
